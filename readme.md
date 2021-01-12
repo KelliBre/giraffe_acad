@@ -1,3 +1,1 @@
-# Learning Git and Coding 
-
-# Learning Github
+# Learning Git

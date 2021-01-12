@@ -1,0 +1,65 @@
+.box{ 
+    width: 100px;
+    height: 100px;
+    border: 15px;
+    padding:50px;
+    margin:20px;
+    border-radius: 50%;
+    background-color:gray;
+    
+    box-shadow: 5px 5px 5px  lightgray;
+    border: black;
+    text-align: center;
+    color: black;
+}
+.box:hover{
+    box-shadow: 1px 1px 10px #6a6a6a , 0 0 15px white, 0 0 15px #d8d8d8;
+
+}
+
+.box-1:hover {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkgoldenrod;
+}
+.box-2:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkgoldenrod;
+}
+.box-3:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkgoldenrod;
+}
+.box-4:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkgoldenrod;
+}
+.box-5:hover{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px darkgoldenrod;  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+} 
+
+@keyframes change-color{
+    0%{background-color: yellow;}
+    25%{background-color: red; top:10px; left:10px; }
+    50%{background-color:blue;top:20px; left:20px;}
+    75%{background-color:green;top:30px; left:30px;}
+    100%{background-color: purple;top:40px; left:40px;}
+
+}
+.box-animation:hover{
+    position: relative;
+    border: 1px solid black;
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
